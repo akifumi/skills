@@ -1,0 +1,31 @@
+{
+  "name": "akifumi-agent-skills",
+  "owner": {
+    "name": "Akifumi Fukaya",
+    "email": "akifumi.fukaya@gmail.com"
+  },
+  "metadata": {
+    "description": "Custom Claude Code skills for development workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "worktree-setup",
+      "description": "Set up parallel Git worktree-based development environments with shared config files via symlinks.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/worktree-setup"
+      ]
+    },
+    {
+      "name": "worktree-setup-ja",
+      "description": "Git worktree-based parallel development environment setup (Japanese version).",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/worktree-setup-ja"
+      ]
+    }
+  ]
+}
