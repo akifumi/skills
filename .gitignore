@@ -1,0 +1,5 @@
+# Binaries (built from cmd/)
+.claude/skills/*/bin/
+
+# Local settings
+.claude/settings.local.json
